@@ -117,6 +117,68 @@ console.log(k)
 const tenTest = 23 > 45 ? "Yes, this is true" : "No, this is quite wrong";
 console.log(tenTest);
 
+//write a program that tells if a user is legible to vote
 let age = 30;
 let voting = age < 100 && age >= 18 ? "You can vote" : "You cannot vote"
 console.log(voting)
+
+//CONDITIONAL STATEMENT
+
+//if statement     - returns true or only works if only the condition given to it is true :
+// if(condition){expression}
+let s = 25;
+let p = 59;
+if(s < p){
+    console.log("The Second value is the greatest")
+}
+
+
+//if else statement    -It display if the condition is true and else display false when the condition is false
+if(s > p){
+    console.log("The second value is the greatest");
+} else {
+    console.log("The second value is the lowest")
+}
+
+let DBpass = "sam12345";
+let password = "sam2334";
+if (password === DBpass){
+    console.log("Logged in sucessfully");
+}else{
+    console.log("Incorrect password");
+}
+//prompt
+let name = prompt("enter your name");
+console.log(name);
+//alert
+alert(`Welcome! ${name}`)
+
+const test = 100;
+console.log(`Your lucky number is ${test}`)
+
+let valueOne = parseInt(prompt("Your first number"));
+let valueTwo = parseInt(prompt("Your second number abeg"));
+let ans = valueOne + valueTwo;
+alert(ans);
+
+
+
+//if else if statement     -Allows you set more than 1 condition
+
+
+
+
+//Exercise List
+//write a program that determines whether a given number is positive or negative
+// let number = parseInt(prompt("Enter a Number"));
+// if (number > 0) {
+//     alert(``)
+// }
+
+//write a program that checks if a number is even or odd
+let number = parseInt(prompt("Enter a number"));
+if (number % 2 == 0){
+    alert("Your number is even")
+} else {
+    alert("Your number is odd")
+}
